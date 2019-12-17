@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ALPHAcamp S2 A36 RGB to Hex Converter</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="RGB-Hex-container">
+    <div id="RGB-container">
+      <div class="color-container">
+        <div id="color-tag-R" class="color-tag">R</div>
+        <input type="range" class="custom-range mx-3" min="0" max="255" value="0" id="input-range-R">
+        <div id="color-number-R" class="color-number">0</div>
+      </div>
+      <div class="color-container">
+        <div id="color-tag-G" class="color-tag">G</div>
+        <input type="range" class="custom-range mx-3" min="0" max="255" value="0" id="input-range-G">
+        <div id="color-number-G" class="color-number">0</div>
+      </div>
+      <div class="color-container">
+        <div id="color-tag-B" class="color-tag">B</div>
+        <input type="range" class="custom-range mx-3" min="0" max="255" value="0" id="input-range-B">
+        <div id="color-number-B" class="color-number">0</div>
+      </div>
+    </div>
+    <div id="Hex-container">#000000</div>
+  </div>
+
+
+  <!-- for using axios and bootstrap -->
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+    integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+    integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+    crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>

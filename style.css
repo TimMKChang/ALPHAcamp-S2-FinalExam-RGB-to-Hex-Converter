@@ -1,0 +1,113 @@
+#RGB-Hex-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000;
+  padding: 20vh;
+}
+
+#Hex-container {
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  font-weight: bold;
+  color: #000000;
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.color-container {
+  display: flex;
+  align-items: center;
+  width: 700px;
+  margin: 20px auto;
+}
+
+.custom-range {
+  border: 3px solid #6C6C6C;
+  border-radius: 10px;
+}
+
+.color-tag {
+  width: 60px;
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+}
+
+.color-number {
+  width: 120px;
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+}
+/* ----------------------------------------- */
+#input-range-R::-webkit-slider-thumb {
+  background-color:	#FF7575;
+  box-shadow: 0 0 0 0.2em rgb(255, 0, 0);
+}
+
+#input-range-R:active::-webkit-slider-thumb {
+  background-color:	rgb(255, 0, 0);
+  box-shadow: 0 0 0 0.4em rgb(255, 0, 0);
+}
+
+#input-range-R:focus::-webkit-slider-thumb {
+  box-shadow: 0 0 0 0.4em rgb(255, 0, 0);
+}
+
+#color-tag-R {
+  background-color: rgb(255, 0, 0);
+}
+
+#color-number-R {
+  background-color: rgb(255, 0, 0);
+}
+/* ----------------------------------------- */
+#input-range-G::-webkit-slider-thumb {
+  background-color:	#93FF93;
+  box-shadow: 0 0 0 0.2em rgb(0, 255, 0);
+}
+
+#input-range-G:active::-webkit-slider-thumb {
+  background-color:	rgb(0, 255, 0);
+  box-shadow: 0 0 0 0.4em rgb(0, 255, 0);
+}
+
+#input-range-G:focus::-webkit-slider-thumb {
+  box-shadow: 0 0 0 0.4em rgb(0, 255, 0);
+}
+
+#color-tag-G {
+  background-color: rgb(0, 255, 0);
+}
+
+#color-number-G {
+  background-color: rgb(0, 255, 0);
+}
+/* ----------------------------------------- */
+#input-range-B::-webkit-slider-thumb {
+  background-color:	#B9B9FF;
+  box-shadow: 0 0 0 0.2em rgb(0, 0, 255);
+}
+
+#input-range-B:active::-webkit-slider-thumb {
+  background-color:	rgb(0, 0, 255);
+  box-shadow: 0 0 0 0.4em rgb(0, 0, 255);
+}
+
+#input-range-B:focus::-webkit-slider-thumb {
+  box-shadow: 0 0 0 0.4em rgb(0, 0, 255);
+}
+
+#color-tag-B {
+  background-color: rgb(0, 0, 255);
+}
+
+#color-number-B {
+  background-color: rgb(0, 0, 255);
+}
